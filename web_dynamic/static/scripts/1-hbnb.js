@@ -6,16 +6,16 @@ $(document).ready(function () {
       if ($(this).is(':checked')) {
 	    checked[$(this).data('id')] = $(this).data('name');
 	} else {
-	      delete checked[$(this).data('id')];
-	  }
+	        delete checked[$(this).data('id')];
+	    }
       $('div.amenities h4').html(function () {
 	    let amenities = [];
 	    Object.keys(checked).forEach(function (key) {
-	      amenities.push(checked[key]);
-	          });
+	            amenities.push(checked[key]);
+	                });
 	    if (amenities.length === 0) {
-	      return ('&nbsp');
-	          }
+	            return ('&nbsp');
+	                }
 	    return (amenities.join(', '));
 	});
     });
