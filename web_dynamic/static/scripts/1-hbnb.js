@@ -16,9 +16,6 @@ $(document).ready(function () {
 	    if (amenities.length === 0) {
 	            return ('&nbsp');
 	    }
-	    if (amenities.length > 3) {
-	      return (amenities[0] + ', ' +amenities[1] + ', ' + amenities[2]);
-	    }
 	    return (amenities.join(', '));
 	});
     });
