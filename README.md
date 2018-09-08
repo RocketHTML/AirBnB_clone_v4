@@ -217,6 +217,9 @@ github repo
 * Kimberly Wong, [kjowong](https://github.com/kjowong) | [@kjowong](https://twitter.com/kjowong) | [kjowong@gmail.com](kjowong@gmail.com)
 * Carrie Ybay, [hicarrie](https://github.com/hicarrie) | [@hicarrie_](https://twitter.com/hicarrie_)
 * Jared Heck, [jarehec](https://github.com/jarehec) | [@jarehec](https://twitter.com/jarehec)
+* John Dinh, [koukijohn](https://github.com/koukijohn)
+* Darnell Garvey, [tragic86](https://github.com/tragic86)
+* Cody Paral, [syssos](https://github.com/syssos)
 
 ## License
 
