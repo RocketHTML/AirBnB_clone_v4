@@ -7,7 +7,7 @@ $(document).ready(function () {
 	    checked[$(this).data('id')] = $(this).data('name');
 	} else {
 	        delete checked[$(this).data('id')];
-	    }
+	}
       $('div.amenities h4').html(function () {
 	    let amenities = [];
 	    Object.keys(checked).forEach(function (key) {
@@ -15,7 +15,10 @@ $(document).ready(function () {
 	                });
 	    if (amenities.length === 0) {
 	            return ('&nbsp');
-	                }
+	    }
+	    if (amenities.length > 3) {
+	      return (amenities[0] + ', ' +amenities[1] + ', ' + amenities[2]);
+	    }
 	    return (amenities.join(', '));
 	});
     });
